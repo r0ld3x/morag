@@ -27,11 +27,7 @@ async def _(event):
         if event.is_private:
 
             PM = (
-<<<<<<< HEAD
                 f"`Hello. THIS IS ME [MORAG](https://t.me/MORAGMODS). \n YOU ARE ACCESSING THE AVAILABE MENU OF MY MASTER ({DEFAULTUSER}),`"
-=======
-                f"Hello. THIS IS ME [ULTRON](https://t.me/rifelmods). \n YOU ARE ACCESSING THE AVAILABE MENU OF MY MASTER ({DEFAULTUSER}),"
->>>>>>> 5ac56d5c4afaf69ba71e3394c2c74ef0b1615c0e
                 "__LET'S MAKE THIS SMOOTH AND LET ME KNOW WHY YOU ARE HERE.__\n\n"
                 "**CHOOSE ONE OF THE FOLLOWING REASONS WHY YOU ARE HERE:**\n\n"
                 "`1`. __TO CHAT WITH MY MASTER.__\n"
