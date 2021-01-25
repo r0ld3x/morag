@@ -33,8 +33,8 @@ pm_caption += "[✨REPO✨](https://github.com/r0ld3x/morag) 🔹 [📜License�
 
 
 
-@bot.on(admin_cmd(outgoing=True, pattern="ultron$"))
-@bot.on(sudo_cmd(pattern="ultron$", allow_sudo=True))
+@bot.on(admin_cmd(outgoing=True, pattern="morag$"))
+@bot.on(sudo_cmd(pattern="morag$", allow_sudo=True))
 async def amireallyalive(alive):
     await alive.get_chat()
     await alive.delete()
