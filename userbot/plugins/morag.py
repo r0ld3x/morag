@@ -38,7 +38,7 @@ pm_caption += "[✨REPO✨](https://github.com/r0ld3x/morag) 🔹 [📜License�
 async def amireallyalive(alive):
     await alive.get_chat()
     await alive.delete()
-    """ For .morag command, check if the bot is running.  """50
+    """ For .morag command, check if the bot is running.  """
     await borg.send_file(alive.chat_id, PM_IMG, caption=pm_caption)
     await alive.delete()
 
