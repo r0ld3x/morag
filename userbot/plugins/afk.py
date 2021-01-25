@@ -131,10 +131,10 @@ async def _(event):
         USER_AFK = f"yes: {reason} {hellpic}"  # pylint:disable=E0602
         if reason:
             await borg.send_message(
-                event.chat_id, f"Hey! My Master Is going Afk Because `{reason}` \n By [Ultron](https://t.me/ultronub)", file=hellpic
+                event.chat_id, f"Hey! My Master Is going Afk Because `{reason}`", file=hellpic
             )
         else:
-            await borg.send_message(event.chat_id, f"Hey! My Master Is going Afk \n By [Ultron](https://t.me/ultronub)", file=hellpic)
+            await borg.send_message(event.chat_id, f"Hey! My Master Is going Afk ", file=hellpic)
         await asyncio.sleep(0.001)
         await event.delete()
         try:
